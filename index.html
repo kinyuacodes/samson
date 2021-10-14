@@ -12,7 +12,7 @@
     <!-- Google Font -->
     <link href="https://fonts.googleapis.com/css2?family=Play:wght@400;700&display=swap" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@300;400;500;600;700&display=swap" rel="stylesheet">
-
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.14.0/css/all.min.css">
     <!-- Css Styles -->
     <link rel="stylesheet" href="css/bootstrap.min.css" type="text/css">
     <link rel="stylesheet" href="css/font-awesome.min.css" type="text/css">
@@ -21,9 +21,16 @@
     <link rel="stylesheet" href="css/magnific-popup.css" type="text/css">
     <link rel="stylesheet" href="css/slicknav.min.css" type="text/css">
     <link rel="stylesheet" href="css/style.css" type="text/css">
+    <link rel="stylesheet" href="css/header.css" type="text/css">
+    <link rel="stylesheet" href="css/blog.css" type="text/css">
+    <link rel="stylesheet" href="css/team.css" type="text/css">
     <style>
         .a-hover:hover {
             color: rgb(15, 128, 221);
+        }
+        
+        .white {
+            color: white;
         }
     </style>
 </head>
@@ -35,50 +42,74 @@
     </div>
 
     <!-- Header Section Begin -->
-    <header class="header">
-        <div class="container">
-            <div class="row">
-                <div class="col-lg-2">
-                    <div class="header__logo">
-                        <a href="./index.html"><img src="img/logo/sam.png" alt=""></a>
-                    </div>
-                </div>
-                <div class="col-lg-10">
-                    <div class="header__nav__option">
-                        <nav class="header__nav__menu mobile-menu">
-                            <ul>
-                                <li class="active"><a href="./index.html">Home</a></li>
-                                <li><a href="./about.html">About</a></li>
-                                <li><a href="./team.html">Team</a></li>
-                                <li><a href="./services.html">Services</a></li>
-                                <li><a href="#">Pages</a>
-                                    <ul class="dropdown">
-                                        <li><a href="./about.html">About</a></li>
-                                        <li><a href="./por.html">Portfolio</a></li>
-                                        <li><a href="./.html">Blog</a></li>
-                                        <li><a href="./blog-s.html">Blog Details</a></li>
-                                    </ul>
-                                </li>
-                                <li><a href="./contact.html">Contact</a></li>
-                            </ul>
-                        </nav>
-                        <div class="header__nav__social">
-                            <a href="#"><i class="fa fa-facebook"></i></a>
-                            <a href="#"><i class="fa fa-twitter"></i></a>
-                            <a href="#"><i class="fa fa-dribbble"></i></a>
-                            <a href="#"><i class="fa fa-instagram"></i></a>
-                            <a href="#"><i class="fa fa-youtube-play"></i></a>
-                        </div>
-                    </div>
-                </div>
+    <header>
+        <a href="#" class="brand">Travel</a>
+        <div class="menu-btn"></div>
+        <div class="navigation">
+            <div class="navigation-items">
+                <a href="/">Home</a>
+                <a href="./about.html">About</a>
+                <a href="#">Explore</a>
+                <a href="./portfolio.html">TV</a>
+                <a href="./contact.html">Contact</a>
             </div>
-            <div id="mobile-menu-wrap"></div>
         </div>
     </header>
+
+    <section class="home">
+        <video class="video-slide active" src="./video/video.mp4" autoplay muted loop></video>
+        <video class="video-slide" src="./video/2.mp4" autoplay muted loop></video>
+        <video class="video-slide" src="./video/video.mp4" autoplay muted loop></video>
+        <video class="video-slide" src="./video/2.mp4" autoplay muted loop></video>
+        <video class="video-slide" src="./video/video.mp4" autoplay muted loop></video>
+        <div class="content active">
+            <h1>Samorco.<br><span>midea Group</span></h1>
+            <p class="white">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute
+                irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+            <a href="#">Read More</a>
+        </div>
+        <div class="content">
+            <h1>Camping.<br><span>Enjoy</span></h1>
+            <p class="white">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute
+                irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+            <a href="#">Read More</a>
+        </div>
+        <div class="content">
+            <h1>Adventures.<br><span>Off Road</span></h1>
+            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute
+                irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+            <a href="#">Read More</a>
+        </div>
+        <div class="content">
+            <h1>Road Trip.<br><span>Together</span></h1>
+            <p class="white">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute
+                irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+            <a href="#">Read More</a>
+        </div>
+        <div class="content">
+            <h1>Feel Nature.<br><span>Relax</span></h1>
+            <p class="white">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute
+                irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+            <a href="#">Read More</a>
+        </div>
+        <div class="media-icons">
+            <a href="#"><i class="fab fa-facebook-f"></i></a>
+            <a href="#"><i class="fab fa-instagram"></i></a>
+            <a href="#"><i class="fab fa-twitter"></i></a>
+        </div>
+        <div class="slider-navigation">
+            <div class="nav-btn active"></div>
+            <div class="nav-btn"></div>
+            <div class="nav-btn"></div>
+            <div class="nav-btn"></div>
+            <div class="nav-btn"></div>
+        </div>
+    </section>
+
     <!-- Header End -->
 
     <!-- Hero Section Begin -->
-    <section class="hero">
+    <!-- <section class="hero">
         <div class="hero__slider owl-carousel">
             <div class="hero__item set-bg" data-setbg="img/hero/hero-1.jpg">
                 <div class="container">
@@ -120,7 +151,7 @@
                 </div>
             </div>
         </div>
-    </section>
+    </section>-->
     <!-- Hero Section End -->
     <!-- Portfolio Section Begin -->
     <section class="portfolio spad">
@@ -239,143 +270,64 @@
         </div>
     </section>
     <!-- Portfolio Section End -->
-    <!-- Services Section Begin -->
-    <section class="services spad">
-        <div class="container">
-            <div class="row">
-                <div class="col-lg-4">
-                    <div class="services__title">
-                        <div class="section-title">
-                            <span>What We do</span>
-                            <h2>We are ,</h2>
-                        </div>
-                        <p>
-
-                            A broadcast Media based in Kenya with investment in online radio, film production, cooperate advertisement, branding, magazine and tv channel
-                        </p>
-                        <a href="./services.html" class="primary-btn">View all services</a>
-                    </div>
-                </div>
-                <div class="col-lg-8">
-                    <div class="row">
-                        <div class="col-lg-6 col-md-6 col-sm-6">
-                            <div class="services__item">
-                                <div class="services__item__icon">
-                                    <img src="img/icons/si-1.png" alt="">
-                                </div>
-                                <h4>Motion graphics</h4>
-                                <p>Whether you’re halfway through the editing process, or you haven’t even started, our post production services can put the finishing touches.</p>
-                            </div>
-                        </div>
-                        <div class="col-lg-6 col-md-6 col-sm-6">
-                            <div class="services__item">
-                                <div class="services__item__icon">
-                                    <img src="img/icons/si-2.png" alt="">
-                                </div>
-                                <h4>Scriptwriting and editing</h4>
-                                <p>Whether you’re halfway through the editing process, or you haven’t even started, our post production services can put the finishing touches.</p>
-                            </div>
-                        </div>
-                        <div class="col-lg-6 col-md-6 col-sm-6">
-                            <div class="services__item">
-                                <div class="services__item__icon">
-                                    <img src="img/icons/si-3.png" alt="">
-                                </div>
-                                <h4>Video distribution</h4>
-                                <p>Whether you’re halfway through the editing process, or you haven’t even started, our post production services can put the finishing touches.</p>
-                            </div>
-                        </div>
-                        <div class="col-lg-6 col-md-6 col-sm-6">
-                            <div class="services__item">
-                                <div class="services__item__icon">
-                                    <img src="img/icons/si-4.png" alt="">
-                                </div>
-                                <h4>Video hosting</h4>
-                                <p>Whether you’re halfway through the editing process, or you haven’t even started, our post production services can put the finishing touches.</p>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </section>
-    <!-- Services Section End -->
 
 
 
 
 
     <!-- Team Section Begin -->
-    <section class="team spad set-bg" data-setbg="img/team-bg.jpg">
+    <section class="team-section">
         <div class="container">
             <div class="row">
-                <div class="col-lg-12">
-                    <div class="section-title team__title">
-                        <span>We Value Teamwork.</span>
-                        <h2>OUR Team</h2>
-                    </div>
+                <div class="section-title">
+                    <h1>Our Team</h1>
+                    <p>Lorem ipsum, or lipsum as it is sometimes known, is dummy text used in laying out print, graphic or web designs.</p>
                 </div>
             </div>
             <div class="row">
-                <div class="col-lg-3 col-md-6 col-sm-6 p-0">
-                    <div class="team__item set-bg" data-setbg="img/team/williams.png">
-                        <div class="team__item__text">
-                            <h4>Lilian William</h4>
-                            <p>MD Broadcast</p>
-                            <div class="team__item__social">
-                                <a href="#"><i class="fa fa-facebook"></i></a>
-                                <a href="#"><i class="fa fa-twitter"></i></a>
-                                <a href="#"><i class="fa fa-dribbble"></i></a>
-                                <a href="#"><i class="fa fa-instagram"></i></a>
+
+                <div class="team-items">
+                    <div class="item">
+                        <img src="img/team/sam.jpeg" alt="team" />
+                        <div class="inner">
+                            <div class="info">
+                                <h5>Samson Ongara- </h5>
+                                <p> Head of cooperate Affairs</p>
+
                             </div>
                         </div>
                     </div>
-                </div>
-                <div class="col-lg-3 col-md-6 col-sm-6 p-0">
-                    <div class="team__item team__item--second set-bg" data-setbg="img/team/stephy.webp">
-                        <div class="team__item__text">
-                            <h4>Stacy Maina</h4>
-                            <p>Production Manager.</p>
-                            <div class="team__item__social">
-                                <a href="#"><i class="fa fa-facebook"></i></a>
-                                <a href="#"><i class="fa fa-twitter"></i></a>
-                                <a href="#"><i class="fa fa-dribbble"></i></a>
-                                <a href="#"><i class="fa fa-instagram"></i></a>
+
+                    <div class="item">
+                        <img src="img/team/cynth.jpeg" alt="team" />
+                        <div class="inner">
+                            <div class="info">
+                                <h5>Cynthia Gatugi- </h5>
+                                <p>Admin/ Communication</p>
+
                             </div>
                         </div>
                     </div>
-                </div>
-                <div class="col-lg-3 col-md-6 col-sm-6 p-0">
-                    <div class="team__item team__item--third set-bg" data-setbg="img/team/steph.webp">
-                        <div class="team__item__text">
-                            <h4>Stephanie Wambui</h4>
-                            <p>Host</p>
-                            <div class="team__item__social">
-                                <a href="#"><i class="fa fa-facebook"></i></a>
-                                <a href="#"><i class="fa fa-twitter"></i></a>
-                                <a href="#"><i class="fa fa-dribbble"></i></a>
-                                <a href="#"><i class="fa fa-instagram"></i></a>
+                    <div class="item">
+                        <img src="img/team/steph.webp" alt="team" />
+                        <div class="inner">
+                            <div class="info">
+                                <h5>Stephanie Wambui </h5>
+                                <p>Host</p>
+
                             </div>
                         </div>
                     </div>
-                </div>
-                <div class="col-lg-3 col-md-6 col-sm-6 p-0">
-                    <div class="team__item team__item--four set-bg" data-setbg="img/team/rose2.webp">
-                        <div class="team__item__text">
-                            <h4>Rose Kamande</h4>
-                            <p>Admin Manager.</p>
-                            <div class="team__item__social">
-                                <a href="#"><i class="fa fa-facebook"></i></a>
-                                <a href="#"><i class="fa fa-twitter"></i></a>
-                                <a href="#"><i class="fa fa-dribbble"></i></a>
-                                <a href="#"><i class="fa fa-instagram"></i></a>
+                    <div class="item">
+                        <img src="img/team/stephy.webp" alt="team" />
+                        <div class="inner">
+                            <div class="info">
+                                <h5>Stacy Maina
+                                </h5>
+                                <p> Production Manager</p>
+
                             </div>
                         </div>
-                    </div>
-                </div>
-                <div class="col-lg-12 p-0">
-                    <div class="team__btn">
-                        <a href="./team.html" class="primary-btn">Meet More of Members</a>
                     </div>
                 </div>
             </div>
@@ -384,96 +336,45 @@
     <!-- Team Section End -->
 
     <!-- Latest Blog Section Begin -->
-    <section class="latest spad">
-        <div class="container">
-            <div class="row">
-                <div class="col-lg-12">
-                    <div class="section-title center-title">
-                        <span>Our Blog</span>
-                        <h2>Blog Update</h2>
-                    </div>
-                </div>
-            </div>
-            <div class="row">
-                <div class="latest__slider owl-carousel">
-                    <div class="col-lg-4">
-                        <div class="blog__item latest__item">
-                            <h4>What Makes Users Want to Share a Video on Social Media?</h4>
-                            <ul>
-                                <li>Jan 03, 2020</li>
-                                <li>05 Comment</li>
-                            </ul>
-                            <p>We recently launched a new website for a Vital client and wanted to share some of the cool features we were able...</p>
-                            <a href="#">Read more <span class="arrow_right"></span></a>
-                        </div>
-                    </div>
-                    <div class="col-lg-4">
-                        <div class="blog__item latest__item">
-                            <h4>Bumper Ads: How to Tell a Story in 6 Seconds</h4>
-                            <ul>
-                                <li>Jan 03, 2020</li>
-                                <li>05 Comment</li>
-                            </ul>
-                            <p>We recently launched a new website for a Vital client and wanted to share some of the cool features we were able...</p>
-                            <a href="#">Read more <span class="arrow_right"></span></a>
-                        </div>
-                    </div>
-                    <div class="col-lg-4">
-                        <div class="blog__item latest__item">
-                            <h4>What Makes Users Want to Share a Video on Social Media?</h4>
-                            <ul>
-                                <li>Jan 03, 2020</li>
-                                <li>05 Comment</li>
-                            </ul>
-                            <p>We recently launched a new website for a Vital client and wanted to share some of the cool features we were able...</p>
-                            <a href="#">Read more <span class="arrow_right"></span></a>
-                        </div>
-                    </div>
-                    <div class="col-lg-4">
-                        <div class="blog__item latest__item">
-                            <h4>Bumper Ads: How to Tell a Story in 6 Seconds</h4>
-                            <ul>
-                                <li>Jan 03, 2020</li>
-                                <li>05 Comment</li>
-                            </ul>
-                            <p>We recently launched a new website for a Vital client and wanted to share some of the cool features we were able...</p>
-                            <a href="#">Read more <span class="arrow_right"></span></a>
-                        </div>
-                    </div>
-                    <div class="col-lg-4">
-                        <div class="blog__item latest__item">
-                            <h4>What Makes Users Want to Share a Video on Social Media?</h4>
-                            <ul>
-                                <li>Jan 03, 2020</li>
-                                <li>05 Comment</li>
-                            </ul>
-                            <p>We recently launched a new website for a Vital client and wanted to share some of the cool features we were able...</p>
-                            <a href="#">Read more <span class="arrow_right"></span></a>
-                        </div>
-                    </div>
-                    <div class="col-lg-4">
-                        <div class="blog__item latest__item">
-                            <h4>What Makes Users Want to Share a Video on Social Media?</h4>
-                            <ul>
-                                <li>Jan 03, 2020</li>
-                                <li>05 Comment</li>
-                            </ul>
-                            <p>We recently launched a new website for a Vital client and wanted to share some of the cool features we were able...</p>
-                            <a href="#">Read more <span class="arrow_right"></span></a>
-                        </div>
-                    </div>
-                    <div class="col-lg-4">
-                        <div class="blog__item latest__item">
-                            <h4>What Makes Users Want to Share a Video on Social Media?</h4>
-                            <ul>
-                                <li>Jan 03, 2020</li>
-                                <li>05 Comment</li>
-                            </ul>
-                            <p>We recently launched a new website for a Vital client and wanted to share some of the cool features we were able...</p>
-                            <a href="#">Read more <span class="arrow_right"></span></a>
+    <section class="s1">
+        <div class="main-container">
+            <h3 style="text-align: center;">Our Latest Blog</h3>
+
+            <div class="post-wrapper">
+
+                <div>
+                    <div class="post">
+                        <img class="thumbnail" src="img/blog/ri-1.jpg">
+                        <div class="post-preview">
+                            <h6 class="post-title">Laboratory Management System</h6>
+                            <p class="post-intro">Designed built & mantained a the lab managment system for FOI Laboratories</p>
+                            <a href="post.html">Read More</a>
                         </div>
                     </div>
                 </div>
+
+                <div>
+                    <div class="post">
+                        <img class="thumbnail" src="img/blog/ri-2.jpg">
+                        <div class="post-preview">
+                            <h6 class="post-title">Online Store - CoursePost Title</h6>
+                            <p class="post-intro">Online store with paypal payments intergration and guest user shopping</p>
+                            <a href="post.html">Read More</a>
+                        </div>
+                    </div>
+                </div>
+
+                <div>
+                    <div class="post">
+                        <img class="thumbnail" src="img/blog/ri-3.jpg">
+                        <div class="post-preview">
+                            <h6 class="post-title">Membership Website</h6>
+                            <p class="post-intro">Modulized guide for online courses with step by step intructions</p>
+                            <a href="post.html">Read More</a>
+                        </div>
+                    </div>
+                </div>
+
             </div>
         </div>
     </section>
@@ -586,6 +487,7 @@
     <script src="js/jquery.slicknav.js"></script>
     <script src="js/owl.carousel.min.js"></script>
     <script src="js/main.js"></script>
+    <script src="js/header.js"></script>
 </body>
 
 </html>
